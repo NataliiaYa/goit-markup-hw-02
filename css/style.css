@@ -1,0 +1,119 @@
+/* колір шрифта #F4F4FD */
+/* колір сторінки background: #E5E5E5; */
+/* колір футер #2E2F42 */
+/* колір акцент #4D5AE5 */
+/* білий  #FFFFFF */
+/* колір зеленої рамки для секції #31D0AA */
+/* колір шрифта <h3> #434455 */
+/* колір шрифта для <p> #8E8F99 */
+/* колір секції команда #E7E9FC */
+/* колір додатковий background: rgba(46, 47, 66, 0.4) */
+
+.page {
+    color: #2E2F42;
+    background-color: #FFFFFF;
+    font-family: Roboto sans-serif;
+
+}
+.list {list-style: none }
+.logo-web {
+    color: #4D5AE5;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase; 
+
+}
+.logo {
+    color: #2E2F42;
+    width: 71px;
+    height: 24px;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+}
+.header-nav {
+    color: #2E2F42;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.contacts {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+.section {
+    background-color: #2E2F42;
+}
+.section-title {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 60px
+
+}
+.button-accent {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-family: inherit;
+}
+.button-usual {
+    background-color: #F4F4FD;
+    color: #4D5AE5;
+    font-family: inherit
+
+}
+.button-accent:hover, .button-accent:focus,  .button-usual:hover, .button-usual:focus  {
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+}
+.list-title {
+    color: #2E2F42;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.list-info {
+    color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.title-main {
+    color: #2E2F42;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+}
+footer {
+    background-color: #2E2F42;
+}
+.footer-logo {
+    color: #F4F4FD;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.text {
+    color: #E7E9FC;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}

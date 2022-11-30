@@ -1,119 +1,128 @@
-/* колір шрифта #F4F4FD */
-/* колір сторінки background: #E5E5E5; */
-/* колір футер #2E2F42 */
-/* колір акцент #4D5AE5 */
-/* білий  #FFFFFF */
-/* колір зеленої рамки для секції #31D0AA */
-/* колір шрифта <h3> #434455 */
-/* колір шрифта для <p> #8E8F99 */
-/* колір секції команда #E7E9FC */
-/* колір додатковий background: rgba(46, 47, 66, 0.4) */
+:root {
+    --white-backgr: #F4F4FD ;
+    --navy-footer: #2E2F42;
+    --blue-accent: #4D5AE5;
+    --white: #FFFFFF;
+    --green: #31D0AA;
+    --slate-body-text: #434455;
+    --grey-text: #8E8F99;
+    --light-gray: #E7E9FC;
+}
 
 .page {
-    color: #2E2F42;
-    background-color: #FFFFFF;
-    font-family: Roboto sans-serif;
+    color: var(--navy-footer);
+    background-color: var(--white);
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 00.02em;
 
 }
 .list {list-style: none }
 .logo-web {
-    color: #4D5AE5;
-    font-family: 'Raleway';
+    color: var(--blue-accent);
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
-    display: flex;
+    line-height: 1.3;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase; 
-
+    text-decoration: none;
 }
 .logo {
-    color: #2E2F42;
+    color: var(--navy-footer);
     width: 71px;
     height: 24px;
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.3;
+    text-decoration: none;
 }
-.header-nav {
-    color: #2E2F42;
+.header-nav, .header-nav:hover, .header-nav:focus, .header-nav:active {
+    color: var(--navy-footer);
     font-weight: 600;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    text-decoration: none;
 }
+/* .list {
+    text-decoration: none;
+} */
 
 .contacts {
-    color: #434455;
+    color: var(--navy-footer);
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     
 }
+
 .section {
-    background-color: #2E2F42;
+    background-color: var(--navy-footer);
 }
 .section-title {
-    color: #FFFFFF;
+    color: var(--white);
     font-weight: 600;
     font-size: 56px;
-    line-height: 60px
+    line-height: 1;
 
 }
 .button-accent {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--blue-accent);
+    color: var(--white);
     font-family: inherit;
 }
 .button-usual {
-    background-color: #F4F4FD;
-    color: #4D5AE5;
+    background-color: var(--white-backgr);
+    color: var(--blue-accent);
     font-family: inherit
 
 }
 .button-accent:hover, .button-accent:focus,  .button-usual:hover, .button-usual:focus  {
-    background-color: #4D5AE5;
-    color: #FFFFFF;
+    background-color: var(--blue-accent);
+    color: var(--white);
 }
 .list-title {
-    color: #2E2F42;
+    color: var(--navy-footer);
     font-weight: 600;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 .list-info {
-    color: #434455;
+    color: var(--slate-body-text);
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .title-main {
-    color: #2E2F42;
+    color: var(--navy-footer);
     font-weight: 600;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.1;
 }
 footer {
-    background-color: #2E2F42;
+    background-color: var(--navy-footer);
 }
 .footer-logo {
-    color: #F4F4FD;
-    font-family: 'Raleway';
+    color: var(--white-backgr);
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    display: flex;
+    line-height: 1.2;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
 }
 .text {
-    color: #E7E9FC;
+    color: var(--light-gray);
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }

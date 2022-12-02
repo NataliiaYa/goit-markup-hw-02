@@ -19,7 +19,13 @@
     letter-spacing: 00.02em;
 
 }
-.list {list-style: none }
+.link {
+    text-decoration: none;
+}
+.list {
+    list-style: none;
+    text-decoration: none;
+}
 .logo-web {
     color: var(--blue-accent);
     font-family: 'Raleway', sans-serif;
@@ -41,12 +47,36 @@
     line-height: 1.3;
     text-decoration: none;
 }
-.header-nav, .header-nav:hover, .header-nav:focus, .header-nav:active {
+.header-nav {
     color: var(--navy-footer);
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
+}
+.header-nav:hover {
+    color: var(--navy-footer);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+
+} 
+.header-nav:focus {
+    color: var(--navy-footer);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+
+} 
+.header-nav:active {
+    color: var(--navy-footer);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: none;
+
 }
 /* .list {
     text-decoration: none;
@@ -74,14 +104,15 @@
     background-color: var(--blue-accent);
     color: var(--white);
     font-family: inherit;
+    cursor: pointer;
 }
 .button-usual {
     background-color: var(--white-backgr);
     color: var(--blue-accent);
-    font-family: inherit
-
+    font-family: inherit;
+    cursor: pointer;
 }
-.button-accent:hover, .button-accent:focus,  .button-usual:hover, .button-usual:focus  {
+.button-accent:hover, .button-accent:focus, .button-usual:hover, .button-usual:focus  {
     background-color: var(--blue-accent);
     color: var(--white);
 }

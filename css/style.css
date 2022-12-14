@@ -55,7 +55,7 @@
     text-decoration: none;
 }
 .header-nav:hover {
-    color: var(--navy-footer);
+    color: var(--blue-accent);
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -63,7 +63,7 @@
 
 } 
 .header-nav:focus {
-    color: var(--navy-footer);
+    color: var(--blue-accent);
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -71,7 +71,7 @@
 
 } 
 .header-nav:active {
-    color: var(--navy-footer);
+    color: var(--blue-accent);
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;

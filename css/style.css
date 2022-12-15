@@ -52,42 +52,43 @@
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;
 }
 .header-nav:hover {
-    color: var(--blue-accent);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
+    color: var(--navy-footer);
     text-decoration: none;
 
 } 
 .header-nav:focus {
-    color: var(--blue-accent);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
+    color: var(--navy-footer);
     text-decoration: none;
 
 } 
 .header-nav:active {
     color: var(--blue-accent);
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 1.5;
     text-decoration: none;
 
 }
-/* .list {
+.header-list {
     text-decoration: none;
-} */
-
+}
 .contacts {
-    color: var(--navy-footer);
+    color: var(--slate-body-text);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    
+}
+.contacts:hover, .contacts:focus {
+    color: var(--slate-body-text);
+}
+.contacts:active {
+    color: var(--blue-accent);
+}
+
+/* .list {
+    text-decoration: none;
+} */
+.contacts-item {
+    color: var(--slate-body-text);
 }
 
 .section {
